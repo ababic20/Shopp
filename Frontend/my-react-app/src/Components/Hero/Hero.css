@@ -48,11 +48,15 @@
     color :white;
     font-size: 22px;
     font-weight: 500;
-
+    cursor:pointer;
+}
+.hero-latest-btn:hover{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
 }
 
 .hero-right{
-    flex: 1;
+    flex: 1.5;
     display: flex;
     align-items: center;
     justify-content: center;

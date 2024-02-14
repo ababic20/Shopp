@@ -4,7 +4,10 @@
     padding: 16px;
     box-shadow: 0 1px 3px -2px rgb(0, 128, 28);
 }
-
+.nav-logo img{
+    width:65px;
+    height:65px;
+}
 .nav-logo{
     display: flex;
     align-items: center;
@@ -60,10 +63,13 @@
     background: white;
     cursor: pointer;
 }
-
+.nav-login-cart button:hover{
+    background:red;
+    color: white;
+}
 
 .nav-login-cart button:active{
-    background: #f3f3f3;
+    background: #00ff2a;
 
 }
 .nav-cart-count{

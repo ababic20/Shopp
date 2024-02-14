@@ -8,17 +8,17 @@ export default function Hero() {
   return (
     <div className='hero'>
         <div className="hero-left">
-            <h2>New arrivals only</h2>
+            <h2>Moderna izdanja</h2>
             <div>
                 <div className="hero-hand-icon">
-                    <p>New</p>
+                    <p>Nove</p>
                     <img src={hand_icon} alt="" />
                 </div>
-                <p>Collections</p>
-                <p>For everyone</p>
+                <p>Kolekcije</p>
+                <p>Za sve</p>
             </div>
             <div className="hero-latest-btn">
-                <div>Latest Colletion</div>
+                <div>Najnovije izdanje</div>
                 <img src={arrow_icon} alt="" />
             </div>
         </div>
