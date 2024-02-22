@@ -19,7 +19,6 @@ export const Navbar = () => {
         <li onClick={() => { setMenu("womens") }}><Link to="/womens" style={{textDecoration:'none'}}>Žene</Link>{menu === "womens" ? <hr /> : <></>}</li>
         <li onClick={() => { setMenu("kids") }}><Link to="/kids" style={{textDecoration:'none'}}>Djeca</Link>{menu === "kids" ? <hr /> : <></>}</li>
       </ul>
-
       <div className='nav-login-cart'>
         <Link to='/login'><button>Prijava</button></Link>
         <Link to='/cart'><img src={cart_icon} alt="Cart" /></Link>
