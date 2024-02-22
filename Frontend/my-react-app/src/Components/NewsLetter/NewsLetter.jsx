@@ -6,7 +6,7 @@ export const NewsLetter = () => {
         <h1>Primite jedinstvene ponude na Vaš mail</h1>
         <p>Pretplatite se na naš newsletter i ostanite informirani</p>
         <div>
-            <input type="email" placeholder='Your email id' />
+            <input type="email" placeholder='Upiši svoj email' />
             <button>Pretplati se</button>
         </div>
     </div>
