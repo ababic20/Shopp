@@ -7,8 +7,10 @@ import Item from '../Components/Item/Item'
 export const ShopCategory = (props) => {
   const {allproducts} = useContext(ShopContext)
   return (
-    <div className='shop-category'> 
-      <img src={props.banner} alt="" />
+    <div className='shop-category'>
+      <div className='banner'>
+        <img src={props.banner} alt="" />
+      </div> 
       <div className='shopcategory-indexSort'>
         <p>
           <span>Prikazivanje 1-12</span> od 36 proizvoda
