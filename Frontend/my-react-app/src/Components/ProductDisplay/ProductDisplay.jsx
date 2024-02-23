@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './ProductDisplay.css'
 import star_icon from '../Images/star_icon.png'
 import star_dull_icon from '../Images/star_dull_icon.png'
+import { ShopContext } from '../../Context/ShopContext'
 
 const ProductDisplay = (props) => {
     const {product} = props;
+    const {addToCart} = useContext(ShopContext);
   return (
     <div className='productdisplay'>
         <div className="productdisplay-left">
@@ -42,7 +44,7 @@ const ProductDisplay = (props) => {
                     <div>XL</div>
                     <div>XXL</div>
                 </div>
-                <button>Dodaj u košaricu</button>
+                <button onClick={()=>{addToCart(product.id)}}>Dodaj u košaricu</button>
                 <p className='productdisplay-right-category'><span>Kategorija: </span>Žene, Majice </p>
                 <p className='productdisplay-right-category'><span>Oznake: </span>Moderno, Nedavno </p>
             </div>
