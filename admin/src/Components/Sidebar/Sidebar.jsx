@@ -13,7 +13,7 @@ export const Sidebar = () => {
                 <p>Dodaj proizvod</p>
             </div>
         </Link>
-        <Link to = {'/list_product'} style = {{textDecoration: "none"}}>
+        <Link to = {'/listproduct'} style = {{textDecoration: "none"}}>
             <div className="sidebar-item">
                 <img src={list_product_icon} alt="" />
                 <p>Prikaži proizvode</p>
